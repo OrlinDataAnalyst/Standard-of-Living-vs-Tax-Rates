@@ -57,22 +57,11 @@ All data publicly available from [Eurostat](https://ec.europa.eu/eurostat/web/ma
 - Tested on SQL Server 2022 and Azure SQL Database
 - Uses T-SQL features: `UNPIVOT`, `TRY_CAST`, `FULL OUTER JOIN`, CTEs, Window Functions
 
-## Project Structure & Key Objects
+## Project Key Objects
 
-TaxLifeIndex/
-│
-├── Tables (raw imported data)
-│   ├── PriceLevelIndices
-│   ├── GDPPercapitaPPS
-│   └── TaxRates
-│
-├── Views (cleaned & unpivoted)
-│   ├── v_PriceLevelIndices
-│   ├── v_GDPPercapitaPPS
-│   └── v_TaxRates
-│
-└── Main Analysis View
-└── v_Europe_Economic_Dashboard  ← Main dashboard!
+│   ├── Price Level Indices
+│   ├── GDP Per capita PPS
+│   └── Tax Rates
 
 ## Main Output Columns (v_Europe_Economic_Dashboard)
 
